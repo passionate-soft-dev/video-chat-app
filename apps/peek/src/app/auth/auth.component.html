@@ -1,0 +1,29 @@
+<form cdkTrapFocus [formGroup]="form" (ngSubmit)="onSubmit()">
+  <mat-card>
+    <mat-tab-group
+      dynamicHeight
+      mat-stretch-tabs
+      (selectedTabChange)="onTabChange($event)"
+      animationDuration="1200ms"
+    >
+      <mat-tab mat-card-content label="Cadastro">
+        <peek-sign-up [form]="form"></peek-sign-up>
+      </mat-tab>
+      <mat-tab mat-card-content label="Acesso">
+        <peek-sign-in [form]="form"></peek-sign-in>
+      </mat-tab>
+    </mat-tab-group>
+
+    <mat-card-actions>
+      <button mat-button type="reset">Limpar</button>
+      <button
+        type="submit"
+        color="accent"
+        mat-stroked-button
+        [disabled]="form.invalid"
+      >
+        Continuar
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</form>

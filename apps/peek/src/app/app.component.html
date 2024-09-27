@@ -1,0 +1,8 @@
+<peek-navbar [title]="title"></peek-navbar>
+<main
+  role="contentinfo"
+  class="peek-container"
+  [@routeAnimations]="prepareRoute(outlet)"
+>
+  <router-outlet #outlet="outlet"></router-outlet>
+</main>

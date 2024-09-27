@@ -1,0 +1,23 @@
+:host {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  section {
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+
+    .mat-button-base {
+      text-transform: uppercase;
+      margin: 12px;
+    }
+  }
+  .peek-bottom-bar {
+    justify-content: space-around;
+    .mat-icon {
+      margin-right: 8px;
+    }
+  }
+}
