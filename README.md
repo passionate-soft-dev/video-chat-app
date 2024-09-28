@@ -4,6 +4,9 @@
 >
 > -- Guilherme Visi Siquinelli
 
+![Angular](https://img.shields.io/badge/Angular-0F0F11?style=for-the-badge&logo=Angular&logoColor=white)
+![NestJS](https://img.shields.io/badge/Nestjs-E0234E?style=for-the-badge&logo=NestJs&logoColor=white)
+![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white)
 ## Local setup
 
 Install
